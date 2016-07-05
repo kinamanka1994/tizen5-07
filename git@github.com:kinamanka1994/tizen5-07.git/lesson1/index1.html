@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <html>
- <head>
+ <head> 
+ <meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
   <meta charset="utf-8">
   <title> onclick</title>
   <script>
@@ -15,12 +18,126 @@ function toggle2() {
   </script>
  </head> 
  <body>
-	 <img id=1 src="images/Paris.jpg" alt="Paris"> 
+ 
+ 
+ <div class="ui-page" id="one">
+		<div class="ui-header">
+			<h1>Multi-page application</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>One</h2>
+			
+			
+			 <img id=1 src="images/Paris.jpg" alt="Paris"> 
 	 <div id=2 > <script type='text/javascript'>  document.write('Разрешение экрана: <b>'+screen.width+'×'+screen.height+'px.</b>'); </script>
 	 </div>
   <form action="">
-   <p><input value=" pok" type="button" value=" skr" onclick="toggle()"></p>
-   <p><input value=" pok2" type="button" value=" skr2" onclick="toggle2()"></p>
+   <p><input value=" картинка " type="button" value=" картинка" onclick="toggle()"></p>
+   <p><input value=" разрешение" type="button" value=" разрешение" onclick="toggle2()"></p>
   </form>
+			 <ul class="ui-listview">
+			 <li class="ui-group-index">Show pages:</li>
+			 
+				 <li class="ui-li-anchor"><a href="#two">Show page "two"</a></li>
+				 <li class="ui-li-anchor"><a href="#three">Show page "three"</a></li>
+				 <li class="ui-li-anchor"><a href="#four">Show page "four"</a></li>
+				 
+			</ul> 
+			 
+		</div><!-- /content -->
+	</div><!-- /page one -->
+ 
+ 
+ 
+ <div class="ui-page" id="two">
+		<div class="ui-header">
+			<h1>Two</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Two</h2>
+			 <header>
+    <hgroup>
+      <h1>Tizen app</h1>
+      <h2> template of tizen</h2>
+    </hgroup>
+  </header>
+
+
+  <nav>
+    <ul>
+       <li><a href="index1.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <article>
+
+      <h1>
+        <img src="images/tizen_32.png" width="32"/> Application Name
+      </h1>
+
+    <p>This is an empty template of Tizen Web Application. Tizen will support multiple device categories:</p>
+    <ul>
+      <li>smartphones, tablets and smart TVs
+      <li>netbooks, in-vehicle infotainment devices
+    </ul>
+    <section>
+      <p>This is a basic section of a document.</p>
+      <p>The following button displays a time using JavaScript.</p>
+      <div id="divbutton1">
+        <button onclick="startTime();">Clock</button>
+      </div>
+    </section>
+  </article>  
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page two -->
+	
+	
+	
+	 <div class="ui-page" id="three">
+		<div class="ui-header">
+			<h1>Three</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Three</h2>
+  
+   <nav>
+  <article>
+    
+    <p>  jQuery — библиотека JavaScript,</p>
+     <h1> фокусирующаяся на взаимодействии JavaScript и HTML. Библиотека jQuery помогает легко получать доступ к любому элементу DOM, обращаться к атрибутам и содержимому элементов DOM, манипулировать ими. Также библиотека jQuery предоставляет удобный API для работы с AJAX. Сейчас разработка jQuery ведётся командой jQuery во главе с Джоном Резигом.</h1>
+    
+  </article>  
+  </nav>
+  
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page three -->
+
+	 <div class="ui-page" id="four">
+		<div class="ui-header">
+			<h1>Four</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Four</h2>
+ 
+
+<video width="400" height="300" controls="controls">
+   <source src="images/ube.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>  
+   </video>
+   
+   <video width="400" height="300" controls="controls">
+    <source src="https://www.youtube.com/watch?v=cRfqHzUwAqM" />
+   </video>
+  
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page four -->
+	
+  <script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
  </body>
 </html>

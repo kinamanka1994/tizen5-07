@@ -50,11 +50,14 @@ nav ul li a:hover {
     color: #fff;
 }
 
-
-
+nav  article p { color: #de00de; }
+nav  article p:h1  { color: #04cc22; }
 footer p {
     text-align: center;
     font-size: 12px;
     color: #888;
     margin-top: 24px;
 }
+
+
+
