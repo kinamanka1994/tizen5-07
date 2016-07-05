@@ -49,7 +49,6 @@ function toggle2() {
 	</div><!-- /page one -->
  
  
- 
  <div class="ui-page" id="two">
 		<div class="ui-header">
 			<h1>Two</h1>
@@ -95,7 +94,6 @@ function toggle2() {
 	</div><!-- /page two -->
 	
 	
-	
 	 <div class="ui-page" id="three">
 		<div class="ui-header">
 			<h1>Three</h1>
@@ -103,7 +101,6 @@ function toggle2() {
 
 		<div class="ui-content">
 			<h2>Three</h2>
-  
    <nav>
   <article>
     
@@ -111,11 +108,69 @@ function toggle2() {
      <h1> фокусирующаяся на взаимодействии JavaScript и HTML. Библиотека jQuery помогает легко получать доступ к любому элементу DOM, обращаться к атрибутам и содержимому элементов DOM, манипулировать ими. Также библиотека jQuery предоставляет удобный API для работы с AJAX. Сейчас разработка jQuery ведётся командой jQuery во главе с Джоном Резигом.</h1>
     
   </article>  
+  
+  <canvas id='draw' width='240' height='180' style='border:1px solid;'>
+  
+  </canvas> 
+  
+<script type='text/javascript'>
+var canvas=document.getElementById("draw")
+var x=canvas.getContext("2d");
+var y=canvas.getContext("2d");
+var z=canvas.getContext("2d");
+var n=canvas.getContext("2d");
+var e=canvas.getContext("2d");
+
+e.fillStyle = "white";
+e.fillRect(0, 0, 256, 256);
+
+x.font = ' italic 35px sans-serif';
+
+x.fillStyle = "black";
+x.fillText("Tizen", 20, 40);  
+
+
+y.fillStyle = "Blue";
+y.fillText("Javascript", 20, 70);
+
+n.fillStyle = "blue";
+n.fillText("canvas", 63, 130);
+
+z.fillStyle = "red";  
+z.fillText("HTML5", 15, 120);
+
+</script> 
+  
+ 
+<canvas id='example'> ddd </canvas>
+        <script>
+ 
+            var example = document.getElementById("example"),
+			    ctx     = example.getContext('2d');
+            example.width  = 640;
+            example.height = 480;
+            ctx.strokeRect(15, 15, 266, 266);
+            ctx.strokeRect(18, 18, 260, 260);
+            ctx.fillRect(20, 20, 256, 256);
+            for (i = 0; i < 8; i += 2)
+                for (j = 0; j < 8; j += 2) {
+                    ctx.clearRect(20 + i * 32, 20 + j * 32, 32, 32);
+                    ctx.clearRect(20 + (i + 1) * 32, 20 + (j + 1) * 32, 32, 32);
+                }
+        </script>
+ 
+ 
+  
   </nav>
   
 			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
 		</div><!-- /content -->
 	</div><!-- /page three -->
+
+
+
+
+
 
 	 <div class="ui-page" id="four">
 		<div class="ui-header">
@@ -124,7 +179,6 @@ function toggle2() {
 
 		<div class="ui-content">
 			<h2>Four</h2>
- 
 
 <video width="400" height="300" controls="controls">
    <source src="images/ube.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>  

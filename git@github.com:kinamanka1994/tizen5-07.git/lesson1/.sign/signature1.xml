@@ -8,15 +8,15 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>SOuG7K1Hu6WbILZZy2PvRtvJ3B0J8hgQPsVdDduujh0=</DigestValue>
+<DigestValue>wc8tHSNkXH1obPtPOOYzlKbvOgx4Cfyfw7WqSx9cXZI=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>E/5QIHhaSnrFGakxuJ4yrWm6q/SDOY6WE/M+9HKmUUA=</DigestValue>
+<DigestValue>8xfAt5ryT2R/Mj7QU6TYnBYUIBMM4junrPIm6FvY6m8=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>qDmjtjX2uRIQ/vU8jy7TMamnYNwvnMTHdMjRJm3jXYI=</DigestValue>
+<DigestValue>dWwSxFASFT4DLqP5UzbyB0As3+MqifvQ5WZjHA16Rps=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -40,7 +40,7 @@
 </Reference>
 <Reference URI="index1.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7tOAmC73AW/LZneRk54AB7F1oTATgKkK7IESk0M9RlA=</DigestValue>
+<DigestValue>ys3KivsKavVTVYEwrB3lp854sPiS6YbVr8QGxXBQces=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -807,11 +807,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-kKc0NGSoV14cbmD2gyNfyCT85Z0SmjRfI4fC7myaTuI8IuYcGAyrL+hPcdXo4px6aNsJLvXi6AnB
-O8Rt73dhITGdphZ8wxciUsbwHRs9ps2Nl6g2PiI7Frsd/o/Wm9Xb9fvZOpnGcNjTEkkjKi/9xZhl
-ifbjEPImzal8K+kB8tDGACjPXG02IqGoP8HVouV+GBktg3EVDygp0x6ou+2Q81sKtjd/hcagdggn
-f8bo6onpkKI3E6EytQ7y1X5/cV0dTv9MCNvXOhou0idVyNEUdaiTMCmcuTGg+LJQ8YU1rMF74Pxh
-73t41isxExtY76gZyXFB3jUpTVwM0E850Ns2KA==
+tFX/aylQUFMFsthNvz3BPIyuulnmqo10u4Xsm2A5BXsu87TLibb7UixgRi0h4Od8xl++9OzcpYPo
+O0v/7IbFaIi7ia5uFOkkGklHb4PWkRNV4ar/iuOtZ41OLkELx5gczKh+DXqx6bPPAS9p93Pu3LGG
+pb7pgHhO6C019GpLY1+CCaj1IfybjNNCMbEjDgLXQLVr3Fg+SHnlrKzQtZrNiCzM52lC+dQJFf/7
+dFzxdqCt5aTwiTcAWtYcxZy0uJ+4gW8eTfsFkRbjNkrViP29FfNJIZ1BItxiHJ51zEFxAewPWu9Y
+r72TcaDGa9Tf5LoksiFKvbwbUXiiA6zp57KMbA==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
