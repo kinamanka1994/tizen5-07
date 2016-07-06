@@ -29,19 +29,15 @@ function toggle2() {
 			<h2>One</h2>
 			
 			
-			 <img id=1 src="images/Paris.jpg" alt="Paris"> 
-	 <div id=2 > <script type='text/javascript'>  document.write('Разрешение экрана: <b>'+screen.width+'×'+screen.height+'px.</b>'); </script>
-	 </div>
-  <form action="">
-   <p><input value=" картинка " type="button" value=" картинка" onclick="toggle()"></p>
-   <p><input value=" разрешение" type="button" value=" разрешение" onclick="toggle2()"></p>
-  </form>
+			
 			 <ul class="ui-listview">
 			 <li class="ui-group-index">Show pages:</li>
 			 
 				 <li class="ui-li-anchor"><a href="#two">Show page "two"</a></li>
 				 <li class="ui-li-anchor"><a href="#three">Show page "three"</a></li>
 				 <li class="ui-li-anchor"><a href="#four">Show page "four"</a></li>
+				  <li class="ui-li-anchor"><a href="#five">Show page "five"</a></li>
+				 
 				 
 			</ul> 
 			 
@@ -184,14 +180,33 @@ z.fillText("HTML5", 15, 120);
    <source src="images/ube.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>  
    </video>
    
-   <video width="400" height="300" controls="controls">
-    <source src="https://www.youtube.com/watch?v=cRfqHzUwAqM" />
-   </video>
+   
+<iframe width="400" height="300" src="https://www.youtube.com/embed/kwBJW0HIHZw" frameborder="0" allowfullscreen></iframe>
+ 
   
 			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
 		</div><!-- /content -->
 	</div><!-- /page four -->
 	
+	
+	<div class="ui-page" id="five">
+		<div class="ui-header">
+			<h1>Five</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Five</h2>
+
+   <img id=1 src="images/Paris.jpg" alt="Paris"> 
+	 <div id=2 > <script type='text/javascript'>  document.write('Разрешение экрана: <b>'+screen.width+'×'+screen.height+'px.</b>'); </script>
+	 </div>
+  <form action="">
+   <p><input value=" картинка " type="button" value=" картинка" onclick="toggle()"></p>
+   <p><input value=" разрешение" type="button" value=" разрешение" onclick="toggle2()"></p>
+  </form>
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page four -->
   <script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
  </body>
 </html>
