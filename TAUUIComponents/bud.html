@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link href="assets/css/style.css" rel="stylesheet" />
+
+
+<!-- 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
+
+<script type="text/javascript" src="js/alarm.js"></script>
+</head>
+<div class="ui-content"></div>
+<body style = "background-color: #adcef0; font-color: white">
+	<div style="margin: 40px; margin-top: 60px;">
+		<form action="" method="">
+			<div id="jsalarmclock">
+				<div>
+					<span id="jsalarm_ct" style="letter-spacing: 2px; font-size: 30px; font-color: white"></span>
+				</div>
+				<div>
+					<span><select
+						style="width: 70px; text-align-last: center; height: 70px; font-size: 40px;"></select></span>
+					<span><select
+						style="width: 70px; text-align-last: center; height: 70px; font-size: 40px;"></select></span>
+					<span><select
+						style="width: 70px; text-align-last: center; height: 70px; font-size: 40px;"></select></span>
+				</div>
+				<div style="align: center; margin-top: 30px; margin-bottom: 20px; ">
+				<input type="submit" value="Set Alarm!" id="submitbutton"
+					style="width: 150px; height: 50px" /></div>
+					
+				<div style="align: center"><input type="reset" value="reset"
+					id="resetbutton" style="width: 150px; height: 50px" /></div>
+			</div>
+		</form>
+
+
+		<script type="text/javascript">
+			jsalarm.init()
+		</script>
+	</div>
+	
+</body>
+</html>

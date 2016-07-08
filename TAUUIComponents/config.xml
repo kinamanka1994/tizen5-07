@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/TAUUIComponents" version="1.0.0" viewmodes="fullscreen">
+    <tizen:application id="Lo9Rd0mfjs.TAUUIComponents" package="Lo9Rd0mfjs" required_version="2.3.1"/>
+    <content src="bud.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>TAUUIComponents</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/alarm"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
+</widget>

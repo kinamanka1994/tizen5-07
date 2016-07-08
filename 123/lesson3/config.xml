@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/BasicApplication" version="1.0.0" viewmodes="maximized">
     <access origin="http://www.3dnews.ru" subdomains="true"></access>
-    <tizen:application id="fWf5piqva7.BasicApplication" package="fWf5piqva7" required_version="2.3.1"/>
+    <tizen:application id="uoyfj2yUDG.BasicApplication" package="uoyfj2yUDG" required_version="2.3.1"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
@@ -15,4 +15,5 @@
     <tizen:privilege name="http://tizen.org/privilege/bluetooth.health"/>
     <tizen:privilege name="http://tizen.org/privilege/mediacapture"/>
     <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
 </widget>
