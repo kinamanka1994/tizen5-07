@@ -17,6 +17,7 @@
     <script src="js/jQ.js"></script>
     <!--   <script src="js/rss.js"></script> -->
       <script src="js/QW.js"></script>
+       <script src="js/doc.js"></script>
 </head>
 
 <body>
@@ -40,15 +41,23 @@
       <h1>
         <img src="images/tizen_32.png" width="32"/> Application Name
       </h1>
+       <div class="contents">
+            <div id="button1"><button id="bttn1" onClick="writeTestFile();">создать</button></div>
+            <div id="button2"><button id="bttn2" onClick="displayFileContentsText();">читать</button></div>
+            <div id="button3"><button id="bttn3" onClick="deleteTestFile();">удалить</button></div>
+        </div>
+      
      <button onClick="getFeed()">RSS</button> 
+     
    <!--      <button onClick="setData('1','2','3')">sql</button>  -->
       
-    </div>  
+    </div> 
+     
     
     <div data-role="content">
     
     
-    
+
     <div id="rssContent"> </div>
     
     
